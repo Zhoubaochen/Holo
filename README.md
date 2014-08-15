@@ -1,5 +1,6 @@
 Holo
 ====
+API 为4.0
 
 Android小例子
 TestDialog
