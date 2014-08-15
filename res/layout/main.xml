@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+   <TextView
+        android:id="@+id/main_show_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+<Button 
+     android:id="@+id/main_show_btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<Button 
+     android:id="@+id/main_show_btn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

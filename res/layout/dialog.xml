@@ -1,0 +1,87 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/test_dialog_tv_show"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="点击测试对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="简单对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="列表对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单选对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="多选对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注册对话框" />
+
+        <Button
+            android:id="@+id/test_dialog_btn07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PopUpWindow" />
+
+        <Button
+            android:id="@+id/test_dialog_btn08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DatePicker" />
+
+        <Button
+            android:id="@+id/test_dialog_btn09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TimePicker" />
+         <Button
+            android:id="@+id/test_dialog_btn10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressDialog" />
+              <Button
+            android:id="@+id/test_dialog_btn11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast" />
+               <Button
+            android:id="@+id/test_dialog_btn12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification" />
+    </LinearLayout>
+
+</ScrollView>

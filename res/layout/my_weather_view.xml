@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 省份 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/province" />
+
+        <Spinner
+            android:id="@+id/test_webservice_weather_spinner_province"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!-- 城市 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/city" />
+
+        <Spinner
+            android:id="@+id/test_webservice_weather_spinner_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!-- 显示天气 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/test_webservice_weather_today_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/about" />
+
+        <ImageView
+            android:id="@+id/test_webservice_weather_today_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/about" />
+
+        <TextView
+              android:id="@+id/test_webservice_weather_today_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/about" />
+    </LinearLayout>
+
+</LinearLayout>

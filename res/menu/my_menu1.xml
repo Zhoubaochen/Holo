@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 菜单组-单选 -->
+    <item android:title="@string/font_size">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/font_10"
+                    android:title="@string/font_10"/>
+                <item
+                    android:id="@+id/font_12"
+                    android:title="@string/font_12"/>
+                <item
+                    android:id="@+id/font_14"
+                    android:title="@string/font_14"/>
+                <item
+                    android:id="@+id/font_16"
+                    android:title="@string/font_16"/>
+                <item
+                    android:id="@+id/font_18"
+                    android:title="@string/font_18"/>
+            </group>
+        </menu>
+    </item>
+    <!-- 普通菜单项 -->
+    <item android:id="@+id/plain_menu_item"/>
+    <!-- 菜单组-复选 -->
+    <item android:title="@string/font_color">
+        <menu>
+            <group android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/font_color_red"
+                    android:title="@string/font_red"/>
+                <item
+                    android:id="@+id/font_color_green"
+                    android:title="@string/font_green"/>
+                <item
+                    android:id="@+id/font_color_blue"
+                    android:title="@string/font_blue"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

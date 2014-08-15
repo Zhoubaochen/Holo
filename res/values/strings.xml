@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Holo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="about">关于</string>
+    <string name="parent">上一级</string>
+    <string name="send">发送</string>
+    <string name="country">国家</string>
+    <string name="province">省份</string>
+    <string name="city">城市</string>
+    <string name="county">县</string>
+    <string name="font_size">字体大小</string>
+    <string name="font_10">10字体</string>
+    <string name="font_12">12字体</string>
+    <string name="font_14">14字体</string>
+    <string name="font_16">16字体</string>
+    <string name="font_18">18字体</string>
+    <string name="font_color">字体颜色</string>
+    <string name="font_red">红色字体</string>
+    <string name="font_green">绿色字体</string>
+    <string name="font_blue">蓝色字体</string>
+    <string name="title_red">红色标题</string>
+    <string name="title_green">绿色标题</string>
+    <string name="title_blue">蓝色标题</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置系统铃声 -->
+    <RingtonePreference
+        android:key="ring_key"
+        android:ringtoneType="all"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:summary="选择铃声（测试ring）"
+        android:title="设置铃声" />
+
+    <PreferenceCategory android:title="个人信息设置" >
+        <EditTextPreference
+            android:dialogTitle="你的用户名为："
+            android:key="username"
+            android:summary="测试EditTextPreference"
+            android:title="用户名" />
+
+        <ListPreference
+            android:entries="@array/gender_list_name"
+            android:entryValues="@array/gender_list_value"
+            android:key="gender"
+            android:summary="测试ListPreference"
+            android:title="性别" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="系统功能设置">
+        <CheckBoxPreference android:title="自动保存进度"
+            android:summaryOn="开启"
+            android:summaryOff="关闭"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

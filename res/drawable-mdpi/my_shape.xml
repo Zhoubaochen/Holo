@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!--
+    定义几何图形四个角弧度
+    <corners android:radius="1"
+        android:topLeftRadius="1"
+        android:topRightRadius="1"
+        android:bottomLeftRadius="1"
+        android:bottomRightRadius="1"/>
+    -->
+    <!--
+ 定义使用渐变色填充
+ <gradient 
+     android:angle="1"
+     android:centerX="1"
+     android:centerY="1"
+     android:startColor=""
+     android:centerColor=""
+     android:endColor=""
+     android:type=""
+     android:useLevel=""/>
+    -->
+    <!--
+ 定义几何形状的内边距 
+ <padding android:left=""
+     android:top=""
+     android:right=""
+     android:bottom=""/>
+    -->
+    <!--
+ 定义几何形状大小
+ <size android:width="integer"
+     android:height="integer"/>
+    -->
+    <!--
+ 定义单种颜色填充 
+ <solid android:color="color"/>
+    -->
+    <!--
+ 定义几何形状绘制边距 
+ <stroke android:width="integer"
+     android:color="color"
+     android:dashWidth="integer"
+     android:dashGap="integer"/>
+    -->
+
+</shape>

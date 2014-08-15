@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 上下文菜单组-单选 -->
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/title_color_red"
+            android:title="@string/title_red"/>
+        <item
+            android:id="@+id/title_color_green"
+            android:title="@string/title_green"/>
+        <item
+            android:id="@+id/title_color_blue"
+            android:title="@string/title_blue"/>
+     
+    </group>
+
+</menu>

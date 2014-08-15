@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<!--  -->
+<ImageSwitcher android:id="@+id/switcher"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:alpha="0.6"
+    />
+<Gallery android:id="@+id/gallery"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:unselectedAlpha="0.6"
+    android:spacing="5dp"
+   />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/test_surfaceview2_image01"
+        android:layout_width="fill_parent"
+        android:layout_height="380dp"
+        android:contentDescription="@string/about" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/test_surfaceview_btn_sin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sin" />
+
+        <Button
+            android:id="@+id/test_surfaceview_btn_cos"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cos" />
+
+    </LinearLayout>
+
+</LinearLayout>

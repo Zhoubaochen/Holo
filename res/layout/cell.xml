@@ -1,0 +1,5 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_gridview_cell"
+    android:layout_width="50dp"
+    android:layout_height="50dp" 
+    android:contentDescription="@string/about"/>

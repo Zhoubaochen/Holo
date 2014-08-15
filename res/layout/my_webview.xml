@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<EditText android:id="@+id/test_webview_url"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:hint="输入要访问的路径"/>
+<WebView    android:id="@+id/test_webview_show01"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+   />  
+
+</LinearLayout>
